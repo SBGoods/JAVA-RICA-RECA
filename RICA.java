@@ -116,7 +116,6 @@ public class RICA {
 	public void allocate() throws FileNotFoundException {
 		PrintWriter pw = new PrintWriter(new File("Alloc.txt"));
         StringBuilder sb = new StringBuilder();
-        
 		int currentEQ = 0;
 		int maxsize = EQclass_list.size();
 		int currentsize = maxsize;
@@ -151,12 +150,6 @@ public class RICA {
 			
 			deleteAllResources(currentresource);
 			deleteAllAgents(ag);
-			
-			
-			
-			
-			
-			
 			
 		}
 	}
